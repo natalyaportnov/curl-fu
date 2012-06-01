@@ -24,8 +24,7 @@ xythos_base_url="https://netfiles.umn.edu/xythoswfs/webui/"
 #  * _utma
 #  * _utmz
 
-# Once you login with the password, you get two new cookies:
-#  * AcceptLanguage
+# Once you login with the password, you get a new cookie:
 #  * XythosTicketSessionID1
 
 # There is a button to upload a file, id=UPLOAD

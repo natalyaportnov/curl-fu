@@ -1,11 +1,12 @@
 @Grapes([
 	@Grab("org.codehaus.geb:geb-core:0.7.0"),
-	@Grab("org.seleniumhq.selenium:selenium-firefox-driver:2.15.0"),
-	@Grab("org.seleniumhq.selenium:selenium-support:2.15.0")])
+	@Grab("org.seleniumhq.selenium:selenium-firefox-driver:2.21.0"),
+	@Grab("org.seleniumhq.selenium:selenium-support:2.21.0")])
 
 Import geb.Browser
  
 // ... some examples ...
+/*
 Browser.drive {
 	go "http://myapp.com/login"
 
@@ -19,6 +20,7 @@ Browser.drive {
 
 	assert $("h1").text() == "Admin Section"
 }
+*/
 
 Browser.drive {
 	go 'https://www.ncs.umn.edu/manageLists/list'
